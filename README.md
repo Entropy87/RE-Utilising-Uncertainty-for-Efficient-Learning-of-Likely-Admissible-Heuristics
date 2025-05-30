@@ -37,11 +37,6 @@ The main function will:
 - Generate and solve a small number of tasks to demonstrate the system's functionality.
 - Print diagnostic information, including feature dimensions, PDB statistics, and sample predictions.
 
-### Notes
-
-- **Performance**: Building pattern databases can be memory-intensive and may take several minutes. The code includes limits (e.g., max 50,000 states per PDB) to manage memory usage.
-- **Training**: The heuristic training is simplified in the main function for demonstration. For full training, modify the parameters in `learn_heuristic_improved` (e.g., increase `num_iterations` and `num_tasks_per_iter`).
-- **Output**: The program logs progress to the console and a file 
 
 ## File Structure
 
